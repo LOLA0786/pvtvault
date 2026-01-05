@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: LOLA0786/aifoundary-action@v1.2
+      - uses: LOLA0786/aifoundary-action@v1.2.1
         with:
           scan-path: .
           mode: warn
